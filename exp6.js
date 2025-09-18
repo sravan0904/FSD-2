@@ -19,7 +19,7 @@ if(user.length>0){
 res.json({messange:"login sucssful"});
 }
 else{
-res.status(401).json{(message:"Invalid credentials")};
+res.status(401).json({message:"Invalid credentials"});
 }
 });
 app.listen(3000,()=> {
